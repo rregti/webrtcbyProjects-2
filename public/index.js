@@ -1,4 +1,4 @@
-const socket = io('https://webrtcbyproject-2.herokuapp.com')
+const socket = io()
 const fromSocket = document.getElementById('userId')
 const localVideo = document.getElementById('localVideo')
 const remoteVideo = document.getElementById('remoteVideo')
